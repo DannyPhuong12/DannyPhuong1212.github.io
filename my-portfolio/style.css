@@ -1,0 +1,66 @@
+.profiilikuva {
+    width: 60%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #0077cc;
+    display: block;
+    margin: 1.5rem auto;
+    transition: width 0.3s ease;
+  }
+  
+ 
+  @media (min-width: 768px) {
+    .profiilikuva {
+      width: 180px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .profiilikuva {
+      width: 200px;
+    }
+  }
+
+  header {
+    background-color: #f8f8f8;
+    padding: 2rem 1rem;
+  }
+  body {
+    background: linear-gradient(to bottom, #ffffff, #025981);
+  }
+
+
+  #tietoja-minusta {
+  margin-top: 670px; 
+
+
+  }
+
+  #taidot {
+    margin-top: 20px; 
+  
+  
+    }
+ 
+    #tietoja-minusta {
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+    }
+
+
+
+
+
+    #yhteystiedot {
+      margin-top: 450px; 
+
+    }
+
+
+
+    #yhteystiedot {
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+    }
